@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: 2px solid red; */
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  width: 70vw;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: rgba(134, 134, 255, 0.272);
+  border: 2px solid gray;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.flex{
+  display: flex;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Header.js Start */
+header{
+  justify-content: space-between;
+  border-bottom: 2px solid gray;
+}
+.logo-img{
+  width: 3rem;
+  height: 3rem;
+  margin: 0 0 0 0.2rem;
+}
+.logo-text{
+  font-size: 2rem;
+  align-self: center;
+}
+.navbar-ul{
+  list-style: none;
+  align-items: center;
+}
+.navbar-ul li{
+  font-size: 1.5rem;
+  margin: 0 1rem;
+}
+.navbar-ul li a{
+  text-decoration: none;
+}
+.navbar-ul-li-btn{
+  font-size: 1.5rem;
+}
+/* Header.js End */
+/* Main.js Start */
+main{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-top: 1rem;
 }
+.main-blog-title{
+  font-size: 4rem;
+}
+.main-blog-title-description{
+  width: max-content;
+  margin: 0 auto;
+}
+.main-blog-title-img{
+  width: 90%;
+  height: 15rem;
+  margin: 0 auto;
+}
+section{
+  width: max-content;
+  margin: 1rem auto;
+}
+article{
+  margin: 1rem 0 1rem 1rem;
+}
+/* Main.js End */
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
