@@ -1,13 +1,7 @@
-# My-Blog
+# MY BLOG WEBSITE 
 
-My First Blog
+## TOOLS TO USE:
 
-I am trying to run it on VS code
+- REACT/TAILWIND FOR FRONTEND
 
-# Subheader
-
-let's see what happens when I make a change on my local machine
-
-# Subheader 2
-
-Making another change now
+- NEED TO LEARN BACKEND TO USE MONGO-DB AND EXPRESS
