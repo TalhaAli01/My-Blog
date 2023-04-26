@@ -1,21 +1,19 @@
-import Articles from "./Articles"
-
 export default function Main(props){
     return(
-        <main>
+        <main className="flex-col">
             <section>
-                <h1 className="main-blog-title">{props.title}</h1>
-                <h3 className="main-blog-title-description">{props.description}</h3>
+                <h1 className="text-[4rem] w-max ml-auto mr-auto">{props.title}</h1>
+                <h3 className="w-max ml-auto mr-auto mb-[1rem] text-2xl">{props.description}</h3>
             </section>
             <img 
                 src= {props.img} 
                 alt="Main"
-                className="main-blog-title-img"
+                className="w-[99%] mr-auto ml-auto"
             />
-            <Articles 
-                subheading= 'This is the first subheading'
-                content= 'This is the content related to the subheading'
-            />
+            <article className="mt-[1rem] ml-[1rem]">
+                <h2 className="text-4xl">{props.subheading}</h2>
+                <p className="text-xl mt-[0.5rem] ">{props.content}</p>
+            </article>
         </main>
     )
 }

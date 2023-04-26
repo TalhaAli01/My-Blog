@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 *{
   margin: 0;
   padding: 0;
@@ -10,64 +14,7 @@ body{
   margin: 0 auto;
   background-color: rgba(134, 134, 255, 0.272);
   border: 2px solid gray;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
-.flex{
-  display: flex;
-}
-/* Header.js Start */
-header{
-  justify-content: space-between;
-  border-bottom: 2px solid gray;
-}
-.logo-img{
-  width: 3rem;
-  height: 3rem;
-  margin: 0 0 0 0.2rem;
-}
-.logo-text{
-  font-size: 2rem;
-  align-self: center;
-}
-.navbar-ul{
-  list-style: none;
-  align-items: center;
-}
-.navbar-ul li{
-  font-size: 1.5rem;
-  margin: 0 1rem;
-}
-.navbar-ul li a{
-  text-decoration: none;
-}
-.navbar-ul-li-btn{
-  font-size: 1.5rem;
-}
-/* Header.js End */
-/* Main.js Start */
-main{
-  display: flex;
-  flex-direction: column;
-  margin-top: 1rem;
-}
-.main-blog-title{
-  font-size: 4rem;
-}
-.main-blog-title-description{
-  width: max-content;
-  margin: 0 auto;
-}
-.main-blog-title-img{
-  width: 90%;
-  height: 15rem;
-  margin: 0 auto;
-}
-section{
-  width: max-content;
-  margin: 1rem auto;
-}
-article{
-  margin: 1rem 0 1rem 1rem;
-}
-/* Main.js End */
+
 
